@@ -1,0 +1,14 @@
+.logo_linkin_park{width: 150px;}
+.botones_inicio li{margin-left: 100px;}
+.botones_inicio a{color: #6C6C6C;}
+.fondo_blanco{background-color: white;}
+.grupo{width: 980px; height: 653px;}
+.nuevo_fondo{background-color: white;}
+li{text-decoration: none; list-style-type: none;}
+footer{background-color: #6C6C6C; margin-top: 55px;}
+footer ul li{list-style-type: none; color: #EE9E59;}
+.icono{background-color: white; border: black 1px solid; color: black;}
+i{margin-left: 225px; margin-bottom: 25px;}
+.fondo_2{background-color: #6C6C6C;}
+h2,h3{font-family: 'Rambla', sans-serif;}
+p{font-family: 'Raleway', sans-serif;}
