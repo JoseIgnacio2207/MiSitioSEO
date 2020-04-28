@@ -30,42 +30,48 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway|Rambla&display=swap" rel="stylesheet">
     
     <title>Linkin Park</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164800826-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-164800826-1');
+    </script>
   </head>
   <body>
-    <div class="container-fluid sticky-top nuevo_fondo"><!--Inicio del container-fluid-->
-        <div class="container"><!--Inicio del container principal-->
+    <header class="container-fluid sticky-top nuevo_fondo"><!--Inicio del container-fluid-->
+      <section class="container"><!--Inicio del container principal-->
           <nav class="navbar navbar-expand-lg fondo_blanco">
-          <a class="navbar-brand" href="index.html" title="El Paraíso del Mar"><img class="logo_linkin_park" src="img/logo.png" alt="Linkin_Park"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon text-body"><img src="img/icono_mobil.svg" alt="icono para versión mobil"></span>
+            <a class="navbar-brand" href="index.html" title="El Paraíso del Mar"><img class="logo_linkin_park" src="img/logo.png" alt="Linkin_Park"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-body"><img src="img/icono_mobil.svg" alt="icono para versión mobil"></span>
           </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto botones_inicio">
-      <li class="nav-item">
-        <a class="nav-link active" href="index.html" title="Inicio">Inicio<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="quienes_somos.html" title="Quienes Somos">Quienes Somos</a>
-      </li>
-       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Discografía
-        </a>
-        <div class="dropdown-menu botones_inicio" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item botones_inicio" href="discografia/album_1.html" title="Album 1">Album 1</a>
-          <a class="dropdown-item botones_inicio" href="discografia/album_2.html" title="Album 2">Album 2</a>
-        </div>
-      <li class="nav-item">
-        <a class="nav-link" href="conciertos.html" title="Conciertos">Conciertos</a>
-      </li>
-      <div class="dropdown-divider"></div>
-    </ul>
-  </div>
-  </nav>
-    </div>
-      </div><!--Cierre del container principal-->
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"><!--Inicio del Slider-->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto botones_inicio">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html" title="Inicio">Inicio<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienes_somos.html" title="Quienes Somos">Quienes Somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Discografía</a>
+              <div class="dropdown-menu botones_inicio" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item botones_inicio" href="discografia/album_1.html" title="Album 1">Album 1</a>
+                <a class="dropdown-item botones_inicio" href="discografia/album_2.html" title="Album 2">Album 2</a>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="conciertos.html" title="Conciertos">Conciertos</a>
+              </li>
+              <div class="dropdown-divider"></div>
+            </ul>
+          </div>
+        </nav>
+    </header>
+    </section><!--Cierre del container principal-->
+      <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"><!--Inicio del Slider-->
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -86,48 +92,59 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div><!--Cierre del Slider-->
-      <div class="container"><!--Inicio del contenedor "Quienes Somos"-->
+      </section><!--Cierre del Slider-->
+      <section class="container"><!--Inicio del contenedor "Quienes Somos"-->
         <div class="row">
-          <div class="col-lg-12 mt-3 text-center">
+          <article class="col-lg-12 mt-3 text-center">
             <h2>¿Quienes Somos?</h2>
             <a href="quienes_somos.html"><img src="img/linkinpark.jpg" alt="El Grupo de Linkin Park"></a>
             <p>Haz click en la imagen para que puedas ver información de Linkin Park.</p>
-          </div>
+          </article>
         </div>
-      </div><!--Fin del contenedor "Quienes Somos"-->
-      <div class="container"><!--Inicio de la Discografía-->
+      </section><!--Fin del contenedor "Quienes Somos"-->
+      <section class="container"><!--Inicio de la Discografía-->
         <div class="row">
           <div class="col-lg-12 text-center mt-5">
             <h2>Discografía</h2>
             <p>Disfruta de sus mejores canciones de sus mejores álbumnes.</p>
-            <li>
-              <a href="discografia/album_1.html" title="Meteora" target="_self"><img src="img/meteora.jpg" alt="Meteora" width="450" height="400"></a>
-              <p>Meteora <strong>2003</strong></p>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/oWfGOVWrueo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <p>Disfruta de este video que pertenece al álbum de <strong>Meteora</strong> y disfrua el resto del álbum con solo presionar la imagen del álbum.</p>
-            </li>
-          </div>
-          <div class="col-lg-12 text-center mt-5">
-            <li>
-              <a href="discografia/album_2.html" title="Reanimation" target="_self"><img src="img/reanimation.jpg" alt="Reanimation" width="450" height="400"></a>
-              <p>Reanimation <strong>2002</strong></p>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/GgxcvmkPD-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <p>Disfruta de este video que pertenece al álbum de <strong>Reanimation</strong> y disfrua el resto del álbum con solo presionar la imagen del álbum.</p>
-          </li>
           </div>
         </div>
-      </div><!--Fin de la Discografía-->
-      <div class="container"><!--Inicio de Conciertos-->
+        <aside>
         <div class="row">
-          <div class="col-lg-12 text-center mt-5">
+          <div class="col-lg-6 text-center mt-2 p-3">
+            <article>
+              <p>Haga click en la imagen para ir al álbum <strong>"Meteora"</strong></p>
+              <li>
+                <a href="discografia/album_1.html" title="Meteora" target="_self"><img src="img/meteora.jpg" alt="Meteora" width="450" height="400"></a>
+                <p>Meteora <strong>2003</strong></p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oWfGOVWrueo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Disfruta de este video que pertenece al álbum de <strong>Meteora</strong> y disfrua el resto del álbum con solo presionar la imagen del álbum.</p>
+              </li>
+            </article>
+            </div>
+            <div class="col-lg-6 text-center mt-2 p-3">
+            <article>
+              <p>Haga click en la imagen para ir al álbum <strong>"Reanimation"</strong></p>
+              <li>
+                <a href="discografia/album_2.html" title="Reanimation" target="_self"><img src="img/reanimation.jpg" alt="Reanimation" width="450" height="400"></a>
+                <p>Reanimation <strong>2002</strong></p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GgxcvmkPD-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Disfruta de este video que pertenece al álbum de <strong>Reanimation</strong> y disfrua el resto del álbum con solo presionar la imagen del álbum.</p>
+              </li>
+            </article>
+        </div>
+      </aside>
+      </section><!--Fin de la Discografía-->
+      <section class="container"><!--Inicio de Conciertos-->
+        <div class="row">
+          <article class="col-lg-12 text-center mt-5">
             <h2>Conciertos</h2>
             <a href="conciertos.html" title="Conciertos" target="_self"><img src="img/concierto.jpg" alt="Conciertos"></a>
             <p>Haz click en la imagen para que puedas ver información que los concierto que han echo.</p>
-          </div>
+          </article>
         </div>
-      </div><!--Fin de Conciertos-->
-      <footer>
+      </section><!--Fin de Conciertos-->
+      <footer class="pt-2">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center mt-2">

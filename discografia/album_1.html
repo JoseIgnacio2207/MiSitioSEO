@@ -30,81 +30,90 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway|Rambla&display=swap" rel="stylesheet">
     
     <title>Linkin Park</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164800826-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-164800826-1');
+    </script>
   </head>
   <body>
-    <div class="container-fluid sticky-top nuevo_fondo"><!--Inicio del container-fluid-->
-        <div class="container"><!--Inicio del container principal-->
+    <header class="container-fluid sticky-top nuevo_fondo"><!--Inicio del container-fluid-->
+      <section class="container"><!--Inicio del container principal-->
           <nav class="navbar navbar-expand-lg fondo_blanco">
-          <a class="navbar-brand" href="index.html" title="El Paraíso del Mar"><img class="logo_linkin_park" src="../img/logo.png" alt="Linkin_Park"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon text-body"><img src="../img/icono_mobil.svg" alt="icono para versión mobil"></span>
+            <a class="navbar-brand" href="index.html" title="El Paraíso del Mar"><img class="logo_linkin_park" src="../img/logo.png" alt="Linkin_Park"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-body"><img src="../img/icono_mobil.svg" alt="icono para versión mobil"></span>
           </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto botones_inicio">
-      <li class="nav-item">
-        <a class="nav-link active" href="../index.html" title="Inicio">Inicio<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../quienes_somos.html" title="Quienes Somos">Quienes Somos</a>
-      </li>
-       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Discografía
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="album_1.html" title="Album 1">Album 1</a>
-          <a class="dropdown-item" href="album_2.html" title="Album 2">Album 2</a>
-        </div>
-      <li class="nav-item">
-        <a class="nav-link" href="../conciertos.html" title="Conciertos">Conciertos</a>
-      </li>
-    </ul>
-  </div>
-  </nav>
-    </div>
-      </div><!--Cierre del container principal-->
-      <div class="container">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto botones_inicio">
+              <li class="nav-item">
+                <a class="nav-link active" href="../index.html" title="Inicio">Inicio<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../quienes_somos.html" title="Quienes Somos">Quienes Somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Discografía</a>
+              <div class="dropdown-menu botones_inicio" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item botones_inicio" href="../discografia/album_1.html" title="Album 1">Album 1</a>
+                <a class="dropdown-item botones_inicio" href="../discografia/album_2.html" title="Album 2">Album 2</a>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="../conciertos.html" title="Conciertos">Conciertos</a>
+              </li>
+              <div class="dropdown-divider"></div>
+            </ul>
+          </div>
+        </nav>
+    </header>
+    </section><!--Cierre del container principal-->
+      <section class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2>Discografía</h2>
-            <p>Disfruta de las canciónes de este popular album</p>
-            <div class="col-lg-12 text-center mt-3">
-              <h3>Meteora (2003)</h3>
-              <img src="../img/meteora.jpg" alt="Meteora">
-              <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" class="mt-5" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/274852347&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-            </div>
-            <div class="col-lg-12 text-center mt-4">
-              <li>
-                <ol>
-                  <li>Foreword - 0:13</li>
-                  <li>Don't Stay - 3:07</li>
-                  <li>Somewhere I Belong - 3:33</li>
-                  <li>Lying from You - 2:55</li>
-                  <li>Hit the Floor - 2:44</li>
-                  <li>Easier to Run - 3:24</li>
-                  <li>Faint - 2:42</li>
-                  <li>Figure.09 - 3:17</li>
-                  <li>Breaking the Habit - 3:16</li>
-                  <li>From the Inside - 2:53</li>
-                  <li>Nobody's Listening - 2:58</li>
-                  <li>Session - 2:23</li>
-                  <li>Numb - 3:08</li>
-                  <li><strong>36:41</strong></li>
-                </ol>
-              </li>
-            </div>
+            <article>
+              <h2>Discografía</h2>
+              <p>Disfruta de las canciónes de este popular album</p>
+              <div class="col-lg-12 text-center mt-3">
+                <h3>Meteora (2003)</h3>
+                <img src="../img/meteora.jpg" alt="Meteora">
+                <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" class="mt-5" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/274852347&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+              </div>
+              <div class="col-lg-12 text-center mt-4">
+                <li>
+                  <ol>
+                    <li>Foreword - 0:13</li>
+                    <li>Don't Stay - 3:07</li>
+                    <li>Somewhere I Belong - 3:33</li>
+                    <li>Lying from You - 2:55</li>
+                    <li>Hit the Floor - 2:44</li>
+                    <li>Easier to Run - 3:24</li>
+                    <li>Faint - 2:42</li>
+                    <li>Figure.09 - 3:17</li>
+                    <li>Breaking the Habit - 3:16</li>
+                    <li>From the Inside - 2:53</li>
+                    <li>Nobody's Listening - 2:58</li>
+                    <li>Session - 2:23</li>
+                    <li>Numb - 3:08</li>
+                    <li><strong>36:41</strong></li>
+                  </ol>
+                </li>
+              </div>
+            </article>
           </div>
         </div>
-      </div>
-      <div class="container">
+      </section>
+      <section class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <a href="album_2.html"><img src="../img/reanimation.jpg" alt="Reanimation"></a>
             <p><strong>Selecciona la imagen para ir al "Album 2"</strong></p>
           </div>
         </div>
-      </div>
+      </section>
 
       <footer class="pt-2">
         <div class="container">
@@ -112,7 +121,7 @@
             <div class="col-lg-12 text-center mt-2">
               <h2>Contactos</h2>
             </div>
-            <div class="col-lg-12 pt-4">
+            <div class="col-lg-12 ml-5 pt-4">
               <a href="https://www.instagram.com/?hl=es-la" target="_blank" title="Instagram"><i class="fab fa-instagram icono rounded-circle p-2 pl-2 text-black"></i></a>
               <a href="https://twitter.com/?lang=es" target="_blank" title="Twitter"><i class="fab fa-twitter icono rounded-circle p-2 pl-2 text-black"></i></a>
               <a href="https://es-la.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f icono rounded-circle p-2 pl-2 pr-2 text-black"></i></a>

@@ -30,42 +30,48 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway|Rambla&display=swap" rel="stylesheet">
     
     <title>Linkin Park</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164800826-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-164800826-1');
+    </script>
   </head>
   <body>
-    <div class="container-fluid sticky-top nuevo_fondo"><!--Inicio del container-fluid-->
-        <div class="container"><!--Inicio del container principal-->
+    <header class="container-fluid sticky-top nuevo_fondo"><!--Inicio del container-fluid-->
+      <section class="container"><!--Inicio del container principal-->
           <nav class="navbar navbar-expand-lg fondo_blanco">
-          <a class="navbar-brand" href="index.html" title="El Paraíso del Mar"><img class="logo_linkin_park" src="img/logo.png" alt="Linkin_Park"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon text-body"><img src="img/icono_mobil.svg" alt="icono para versión mobil"></span>
+            <a class="navbar-brand" href="index.html" title="El Paraíso del Mar"><img class="logo_linkin_park" src="img/logo.png" alt="Linkin_Park"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-body"><img src="img/icono_mobil.svg" alt="icono para versión mobil"></span>
           </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto botones_inicio">
-      <li class="nav-item">
-        <a class="nav-link active" href="index.html" title="Inicio">Inicio<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="quienes_somos.html" title="Quienes Somos">Quienes Somos</a>
-      </li>
-       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Discografía
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="discografia/album_1.html" title="Album 1">Album 1</a>
-          <a class="dropdown-item" href="discografia/album_2.html" title="Album 2">Album 2</a>
-        </div>
-      <li class="nav-item">
-        <a class="nav-link" href="conciertos.html" title="Conciertos">Conciertos</a>
-      </li>
-      <div class="dropdown-divider"></div>
-    </ul>
-  </div>
-  </nav>
-    </div>
-      </div><!--Cierre del container principal-->
-      <div class="container">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto botones_inicio">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html" title="Inicio">Inicio<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienes_somos.html" title="Quienes Somos">Quienes Somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Discografía</a>
+              <div class="dropdown-menu botones_inicio" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item botones_inicio" href="discografia/album_1.html" title="Album 1">Album 1</a>
+                <a class="dropdown-item botones_inicio" href="discografia/album_2.html" title="Album 2">Album 2</a>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="conciertos.html" title="Conciertos">Conciertos</a>
+              </li>
+              <div class="dropdown-divider"></div>
+            </ul>
+          </div>
+        </nav>
+    </header>
+    </section><!--Cierre del container principal-->
+      <section class="container">
         <div class="row">
           <div class="col-lg-12 mt-3 text-center">
             <h2>¿Quienes somos?</h2>
@@ -93,19 +99,21 @@
                 </a>
               </div><!--Cierre del Slider-->
               <div class="mt-3">
-                <p><strong>Linkin Park</strong> es una banda <em>estadounidense</em> de <em>rock alternativo</em> procedente de <strong>Agoura Hills, California.</strong> Formada en 1996, el grupo estuvo inicialmente integrado por <em>Mike Shinoda, Dave Farrell, Joe Hahn, Brad Delson, Rob Bourdon y Mark Wakefield</em>, este último como voz principal. La banda inició en ese mismo año sus primeros trabajos musicales de manera independiente y posterior a esto grabaron su primer material llamado <em>Xero</em>; sin embargo no tuvieron gran éxito en la búsqueda de un sello discográfico ya que nadie mostró interés por su trabajo, lo que ocasionó la renuncia de Mark Wakefield.​ Poco después, <strong>Chester Bennington</strong> se incorporó a la banda como vocalista; el grupo realizó su primera presentación en un club de Los Ángeles y siendo respaldados por Jeff Blue, en aquel entonces vicepresidente de <strong>Warner Bros. Records</strong>, lograron firmar con el sello en 1999. El nombre del grupo es un juego de palabras que hace referencia al <em>Lincoln Park</em> en <em>Santa Mónica</em>.</p>
+                <article>
+                  <p><strong>Linkin Park</strong> es una banda <em>estadounidense</em> de <em>rock alternativo</em> procedente de <strong>Agoura Hills, California.</strong> Formada en 1996, el grupo estuvo inicialmente integrado por <em>Mike Shinoda, Dave Farrell, Joe Hahn, Brad Delson, Rob Bourdon y Mark Wakefield</em>, este último como voz principal. La banda inició en ese mismo año sus primeros trabajos musicales de manera independiente y posterior a esto grabaron su primer material llamado <em>Xero</em>; sin embargo no tuvieron gran éxito en la búsqueda de un sello discográfico ya que nadie mostró interés por su trabajo, lo que ocasionó la renuncia de Mark Wakefield.​ Poco después, <strong>Chester Bennington</strong> se incorporó a la banda como vocalista; el grupo realizó su primera presentación en un club de Los Ángeles y siendo respaldados por Jeff Blue, en aquel entonces vicepresidente de <strong>Warner Bros. Records</strong>, lograron firmar con el sello en 1999. El nombre del grupo es un juego de palabras que hace referencia al <em>Lincoln Park</em> en <em>Santa Mónica</em>.</p>
+                </article>
               </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <footer class="fondo_2">
+      <footer class="pt-2">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center mt-2">
               <h2>Contactos</h2>
             </div>
-            <div class="col-lg-12 pt-4">
+            <div class="col-lg-12 ml-5 pt-4">
               <a href="https://www.instagram.com/?hl=es-la" target="_blank" title="Instagram"><i class="fab fa-instagram icono rounded-circle p-2 pl-2 text-black"></i></a>
               <a href="https://twitter.com/?lang=es" target="_blank" title="Twitter"><i class="fab fa-twitter icono rounded-circle p-2 pl-2 text-black"></i></a>
               <a href="https://es-la.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f icono rounded-circle p-2 pl-2 pr-2 text-black"></i></a>
